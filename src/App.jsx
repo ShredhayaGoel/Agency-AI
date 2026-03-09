@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
 import Services from "./components/Services";
+import OurWork from "./components/OurWork";
 
 const App = () => {
   const [theme, settheme] = useState(
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <TrustedBy />
       <Services />
+      <OurWork />
       <h1 className={`text-gray-700 dark:text-white sm:text-sm`}>
         Hello, World!
       </h1>
