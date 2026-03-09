@@ -7,8 +7,7 @@ import Teams from "./components/Teams";
 import ContactUs from "./components/ContactUs";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbartemp";
-
+import Navbartemp1 from "./components/Navbartemp1";
 const App = () => {
   const [theme, settheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
@@ -43,7 +42,7 @@ const App = () => {
   return (
     <div className="dark:bg-black relative">
       <Toaster />
-      <Navbar theme={theme} settheme={settheme} />
+      <Navbartemp1 theme={theme} settheme={settheme} />
       <Hero />
       <TrustedBy />
       <Services />
