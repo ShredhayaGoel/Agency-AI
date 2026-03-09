@@ -3,7 +3,7 @@ import assets from "../assets/assets";
 import ThemeToggleBtn from "./ThemeToggleBtn";
 import { motion } from "framer-motion";
 
-const Navbar = ({ theme, settheme }) => {
+const Navbartemp = ({ theme, settheme }) => {
   const [sidebaropen, setsidebaropen] = useState(false);
 
   return (
@@ -78,4 +78,4 @@ const Navbar = ({ theme, settheme }) => {
   );
 };
 
-export default Navbar;
+export default Navbartemp;
